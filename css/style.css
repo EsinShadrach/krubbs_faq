@@ -1,0 +1,198 @@
+:root {
+	--krubbs_blue: #2196f3;
+	--primary-2: #b5dcfb;
+	--primary-3: #ecf6fe99;
+	--primary-5: #dbeefd;
+}
+
+.bg-krubbs-primary-2 {
+	background: var(--primary-2) !important;
+}
+
+.bg-krubbs-primary-3 {
+	background: var(--primary-3) !important;
+}
+
+.bg-krubbs-primary-5 {
+	background: var(--primary-5) !important;
+}
+
+.text-krubbs-blue {
+	color: var(--krubbs_blue) !important;
+}
+
+#body {
+	font-family: "poppins" system-ui, -apple-system, BlinkMacSystemFont,
+		"Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+		"Helvetica Neue", sans-serif;
+	/* YOu can remove the property above ef */
+	/* font-family: "Poppins", sans-serif; */
+}
+
+.krub_logo_nav {
+	width: 3rem;
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.krub_logo_nav div {
+	font-weight: bold;
+	color: var(--krubbs_blue);
+}
+
+.text-krubs {
+	color: var(--krubbs_blue) !important;
+}
+
+.navbar-toggler {
+	box-shadow: none !important;
+}
+
+.search_krubbs_container {
+	display: flex;
+	border: 1px solid;
+	border-radius: 0.375rem;
+	justify-content: center;
+	align-items: center;
+}
+
+.search_krubbs_container input {
+	background: none;
+	outline: none;
+	border: none;
+}
+
+.form_nav_search_krubbs {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+}
+
+.cart_search {
+	gap: 0.5rem;
+	align-items: center;
+}
+
+.nav_user_thing {
+	height: 100%;
+	width: 100%;
+	clip-path: circle();
+	padding: 0.8rem;
+}
+
+.navbar-nav {
+	display: flex;
+	justify-content: center;
+	font-weight: bold;
+	font-size: 130%;
+	align-items: center;
+}
+
+.nav-item,
+.nav-link {
+	padding-inline: 0 !important;
+	margin-inline: 0.5rem;
+	transition: 0.3s all linear;
+	color: black;
+	font-weight: normal;
+}
+
+.nav-item:hover {
+	color: var(--krubbs_blue);
+	border-bottom: 2px solid;
+}
+
+.active_nav {
+	color: var(--krubbs_blue) !important;
+	border-bottom: 2px solid;
+}
+
+.search_active {
+	color: var(--krubbs_blue);
+	border: 1px solid var(--krubbs_blue);
+}
+
+.krub_logo_offcanvas {
+	width: 2rem !important;
+	align-items: center;
+}
+
+.krub_logo_offcanvas div {
+	color: var(--krubbs_blue);
+}
+
+.overflow_scroll_x {
+	overflow-x: auto;
+}
+
+.bg-none {
+	background: none !important;
+}
+
+.usernameField {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.search_icon {
+	cursor: text;
+}
+
+.krubbs_accordion .accordion-item{
+    background: var(--primary-5) !important;
+    border-radius: 0.375rem !important;
+    border: none !important;
+}
+
+.krubbs_accordion .accordion-item .accordion-header button{
+    background-color: var(--primary-5) !important;
+    border-radius: 0.375rem !important;
+    box-shadow: none !important;
+}
+
+.footer_img {
+	width: 3rem;
+}
+
+.centered_foot {
+	display: flex !important;
+	justify-content: center !important;
+}
+
+.footer_row_2 {
+	display: flex !important;
+	width: 100%;
+	justify-content: center !important;
+}
+
+@media (max-width: 767px) {
+	.to_show_at_smaller_screen {
+		display: flex !important;
+		gap: 1rem;
+		justify-content: center;
+	}
+	.offcanvas-footer {
+		background-color: #2196f3 !important;
+		border-top-left-radius: 0.5rem;
+		border-top-right-radius: 0.5rem;
+	}
+	.to_disappear_at_smaller_screen {
+		display: none !important;
+	}
+	.form_nav_search_krubbs {
+		margin-top: 0.5rem !important;
+	}
+	.nav_mobile_offcanvas {
+		margin-top: 3rem !important;
+		margin-bottom: 3rem !important;
+	}
+	.nav-link {
+		margin-block: 0.5rem;
+	}
+	.ktext_logo {
+		display: block !important;
+	}
+}
